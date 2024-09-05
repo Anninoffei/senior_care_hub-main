@@ -16,6 +16,8 @@ const theme = createTheme({
   },
 });
 
+const publishableKey = process.env.pk_test_dG9wcy1waWthLTYxLmNsZXJrLmFjY291bnRzLmRldiQ;
+
 export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
