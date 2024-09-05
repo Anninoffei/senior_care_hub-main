@@ -16,7 +16,7 @@ const theme = createTheme({
   },
 });
 
-const publishableKey = process.env.pk_test_dG9wcy1waWthLTYxLmNsZXJrLmFjY291bnRzLmRldiQ;
+const publishableKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
 
 export default function RootLayout({ children }) {
   return (
